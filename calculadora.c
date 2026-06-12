@@ -37,11 +37,27 @@ int main() {
 }
 
 void suma() {
-    printf("Operacion suma pendiente de desarrollar.\n");
+    float a, b;
+
+    printf("Dame el primer numero: ");
+    scanf("%f", &a);
+
+    printf("Dame el segundo numero: ");
+    scanf("%f", &b);
+
+    printf("El resultado de la suma es: %.2f\n", a + b);
 }
 
 void resta() {
-    printf("Operacion resta pendiente de desarrollar.\n");
+    float a, b;
+
+    printf("Dame el primer numero: ");
+    scanf("%f", &a);
+
+    printf("Dame el segundo numero: ");
+    scanf("%f", &b);
+
+    printf("El resultado de la resta es: %.2f\n", a - b);
 }
 
 void multiplicacion() {
