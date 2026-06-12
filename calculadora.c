@@ -45,9 +45,23 @@ void resta() {
 }
 
 void multiplicacion() {
-    printf("Operacion multiplicacion pendiente de desarrollar.\n");
+    float a, b;
+    printf("Dame el primer numero: ");
+    scanf("%f", &a);
+    printf("Dame el segundo numero: ");
+    scanf("%f", &b);
+    printf("El resultado de la multiplicacion es: %.2f\n", a * b);
 }
 
 void division() {
-    printf("Operacion division pendiente de desarrollar.\n");
+    float a, b;
+    printf("Dame el primer numero: ");
+    scanf("%f", &a);
+    printf("Dame el segundo numero: ");
+    scanf("%f", &b);
+    if (b != 0) {
+        printf("El resultado de la division es: %.2f\n", a / b);
+    } else {
+        printf("No se puede dividir entre cero.\n");
+    }
 }
